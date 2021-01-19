@@ -1,0 +1,43 @@
+/* -------------------------- start Login Page ------------------------------- */
+@font-face{
+    src: url(../fonts/Amiri-Regular.ttf);
+    font-family: 'amiri';
+}
+body{
+    font-family: 'amiri', 'Montserrat';
+}
+.lang p.en{
+    border-right: none;
+    border-left: 1px solid #ffffff30;
+}
+/* ---------------------------- End Login Page ------------------------------- */
+.container .sidebar{
+    right: 0;
+    border-right: 0;
+    border-left: 1px solid rgb(97, 97, 97);
+}
+.container .header{
+    left: 0;
+    right: 80px;
+}
+.container .main-content{
+    margin-left: 0;
+    margin-right: 80px;
+}
+.header .lang p.en{
+    border-right: 0;
+    border-left: 2px solid #666;
+}
+.main-content .user-table thead{
+    text-align: right;
+}
+.links-sidebar .ulist .item a:hover .icon,
+.links-sidebar .ulist .item a.active .icon{
+    color: #A55FEB;
+    padding-left: 18px;
+    padding-right: 0;
+}
+.add-form .form .inpt.half-w:first-child{
+    margin-right: 0;
+    margin-left: 3%;
+}
